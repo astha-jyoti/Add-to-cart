@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+<title>
+MARS PROJECT
+</title>
+</head>
+<body>
+<h1>Online Store</h1>
+<h2 id="counter">0</h2>
+	<img id="basket" onclick="show()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVfBDn4_cYMz-d-b3Wr4cxXNkMkjwzws27Ug&usqp=CAU" >
+	<p id="orderTotal"></p>
+<div class="product">
+<img id="backpack" src="https://img.looksgud.com/upload/item-image/2249/1c83v/1c83v-kleio-designer-women-backpack-hand-bag-for-college-girls-and-work_500x500_0.jpg">
+<p><strong>Backpack</strong><br>$500</p>
+<button onclick="addToCart(item1)" >Add To Cart</button>
+<button onclick="remove(item1)">Remove item</button>
+</div>
+<div class="product">
+	<img id="camera" src="https://static.bhphoto.com/images/images2000x2000/nikon_d850_dslr_camera_body_1503557424000_1351688.jpg">
+	<p><strong>Camera</strong><br>$400</p>
+	<button onclick="addToCart(item2)" >Add To Cart</button>
+	<button onclick="remove(item2)">Remove item</button>
+</div>
+<script src="script.js"></script>
+</body>

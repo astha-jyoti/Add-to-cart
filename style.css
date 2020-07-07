@@ -1,0 +1,43 @@
+body {
+    color: midnightblue;
+    font-family: Helvetica Neune;
+    }
+    #camera {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        border: solid 5px;
+    }
+    #backpack {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        border: solid 5px;
+        left: 50px;
+    }
+    .product {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+    
+    }
+    #basket {
+        height: 50px;
+        width: 100px;
+        border-radius: 5px;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+    #counter {
+        position: absolute;
+        right: 130px;
+        top: 16px;
+    }
+    h1 {
+        text-align: center;
+    }
+    #orderTotal {
+        margin-right: 16px;
+        text-align: right;
+    }
